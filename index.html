@@ -1,192 +1,164 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Junzhe Chen - Academic Profile</title>
-    <style>
-        body {
-            font-family: 'Roboto', 'Arial', sans-serif;
-            line-height: 1.6;
-            color: #333;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #f9f9f9;
-        }
-
-        header {
-            text-align: center;
-            margin-bottom: 2em;
-        }
-
-        h1 {
-            color: #2c3e50;
-            font-size: 2.5em;
-            margin-bottom: 0.2em;
-        }
-
-        h2 {
-            color: #34495e;
-            border-bottom: 2px solid #34495e;
-            padding-bottom: 0.3em;
-            margin-top: 1.5em;
-        }
-
-        .contact-info {
-            font-size: 0.9em;
-            color: #7f8c8d;
-        }
-
-        .section {
-            margin-bottom: 2em;
-        }
-
-        ul {
-            padding-left: 20px;
-        }
-
-        .publication,
-        .experience-item,
-        .research-item {
-            margin-bottom: 1em;
-        }
-
-        .publication-title,
-        .experience-title,
-        .research-title {
-            font-weight: bold;
-        }
-
-        .date,
-        .location {
-            font-style: italic;
-            color: #7f8c8d;
-        }
-
-        .details {
-            margin-top: 0.5em;
-            font-size: 0.95em;
-        }
-    </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Junzhe Chen is a Ph.D. student at Tianjin University studying computer vision, video understanding, and efficient vision-language models.">
+  <meta name="theme-color" content="#f3f0e8">
+  <meta property="og:title" content="Junzhe Chen — Academic Homepage">
+  <meta property="og:description" content="Research in video understanding, multimodal learning, and efficient deep learning.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://junzhec.top/">
+  <title>Junzhe Chen — Computer Vision Researcher</title>
+  <link rel="canonical" href="https://junzhec.top/">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/dm-sans-regular.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="preload" href="assets/fonts/newsreader-regular.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="assets/styles.css">
+  <script src="assets/site.js" defer></script>
 </head>
-
 <body>
-    <header>
-        <h1>Junzhe Chen</h1>
-        <div class="contact-info">
-            <p>410-710-5444 | junzhec12@gmail.com | jchen445@jh.edu</p>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="brand" href="#top" aria-label="Junzhe Chen, back to top"><span class="brand-mark" aria-hidden="true">jc<span>.</span></span><span class="brand-label">Academic homepage</span></a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="#about">About</a><a href="#publications">Research <sup>04</sup></a><a href="#background">Background</a><a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    <section class="hero shell" id="top" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span aria-hidden="true"></span> Computer vision &amp; multimodal learning</p>
+        <h1 id="hero-title">Junzhe <em>Chen.</em></h1>
+        <p class="hero-position">Ph.D. student · Computer Science · Tianjin University</p>
+        <p class="hero-intro">Understanding the visual world,<br>one object at a time.</p>
+        <div class="hero-links" aria-label="Profile links">
+          <a class="primary-link" href="mailto:junzhec12@gmail.com">Get in touch <span aria-hidden="true">↗</span></a>
+          <a href="https://scholar.google.com/citations?user=YjoHl1EAAAAJ&amp;hl=en" target="_blank" rel="noreferrer">Google Scholar <span aria-hidden="true">↗</span></a>
+          <a href="https://github.com/cjzcjz666" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a>
         </div>
-    </header>
-
-    <section class="section">
-        <h2>About Me</h2>
-        <p>
-            I'm a computer science researcher pursuing my Master's at Johns Hopkins University, with a focus on computer
-            vision and
-            deep learning. My passion lies in developing innovative solutions for visual foundation models, object
-            detection, and
-            model compression. With a background in software engineering from Beijing Jiaotong University and
-            internships at tech
-            companies like OPPO and Sense Technology, I blend theoretical knowledge with practical experience.
-            I'm driven by the challenge of bridging academic research with real-world applications,
-            always
-            seeking to push the boundaries of what's possible in artificial intelligence.
-        </p>
-    </section>
-
-    <section class="section">
-        <h2>Education</h2>
-        <ul>
-            <li>M.S. in Computer Science, Johns Hopkins University, 2024-2025 (Expected)</li>
-            <li>B.Eng. in Software Engineering, Beijing Jiaotong University, 2019-2023</li>
-        </ul>
-    </section>
-
-    <section class="section">
-        <h2>Research Interests</h2>
-        <p>Computer Vision, Visual Foundation Models, Object Detection, Segmentation, Diffusion Models, Model
-            Compression</p>
-    </section>
-
-    <section class="section">
-        <h2>Publications</h2>
-        <div class="publication">
-            <span class="publication-title">Chen, J., et al. (2024). Adaptive quantization with mixed-precision based on
-                low-cost proxy.</span> In ICASSP 2024-2024 IEEE International Conference on Acoustics, Speech and Signal
-            Processing (ICASSP). IEEE.
+      </div>
+      <aside class="research-card" aria-label="Research focus: object identity, state, and time">
+        <div class="card-topline"><span>Research lens</span><span>01 — 03</span></div>
+        <div class="track-visual" aria-hidden="true">
+          <div class="track-frame"><span class="object object-a"></span><i>t₁</i></div>
+          <div class="track-frame"><span class="object object-b"></span><i>t₂</i></div>
+          <div class="track-frame is-occluded"><span class="object object-c"></span><i>t₃</i></div>
+          <div class="track-line"><span></span><span></span><span></span></div>
         </div>
+        <p class="card-statement">The same object.<br>A continuous story.</p>
+        <div class="card-tags"><span>Identity</span><span>State</span><span>Time</span><span aria-hidden="true">↗</span></div>
+      </aside>
     </section>
-
-    <section class="section">
-        <h2>Research Experience</h2>
-        <div class="research-item">
-            <div class="research-title">Large decision-making model based on ODT</div>
-            <div class="date">Dec 2023 - Jan 2024</div>
-            <div class="details">
-                Constructing a multimodal generalized decision-making large model using Online Decision Transformer,
-                Multi-gate Mixture-of-Experts, and RL techniques.
+    <section class="news-strip shell" aria-label="Recent news">
+      <p class="section-kicker">Latest notes</p>
+      <ol>
+        <li><time datetime="2026-08">Aug 2026</time><span><a href="https://arxiv.org/abs/2608.04866" target="_blank" rel="noreferrer">SlotNarrative</a> is now available on arXiv.</span></li>
+        <li><time datetime="2026-05">May 2026</time><span>Introducing <a href="https://arxiv.org/abs/2605.09904" target="_blank" rel="noreferrer">TOC-Bench</a> for temporal object consistency in Video-LLMs.</span></li>
+      </ol>
+    </section>
+    <section class="about shell section" id="about" aria-labelledby="about-title">
+      <div class="section-heading"><p class="section-kicker">01 / About</p><h2 id="about-title">Seeing beyond<br><em>the frame.</em></h2></div>
+      <div class="about-body">
+        <p class="lead">I am a Ph.D. student in Computer Science at <a href="https://en.tju.edu.cn/" target="_blank" rel="noreferrer">Tianjin University</a>. My research sits at the intersection of computer vision and multimodal learning.</p>
+        <p>I am particularly interested in object-centric video understanding: preserving identity through occlusion and change, grounding temporal reasoning in visual evidence, and designing token-efficient interfaces for Video-LLMs. My earlier work spans tiny-object detection and mixed-precision model quantization.</p>
+        <ul class="interest-list" aria-label="Research interests"><li><span>01</span>Video understanding</li><li><span>02</span>Vision-language models</li><li><span>03</span>Object-centric learning</li><li><span>04</span>Efficient deep learning</li></ul>
+      </div>
+    </section>
+    <section class="publications section" id="publications" aria-labelledby="publications-title">
+      <div class="shell">
+        <div class="section-heading publication-heading">
+          <div><p class="section-kicker">02 / Research</p><h2 id="publications-title">Publications <em>&amp; preprints.</em></h2></div>
+          <a class="text-link scholar-link" href="https://scholar.google.com/citations?user=YjoHl1EAAAAJ&amp;hl=en" target="_blank" rel="noreferrer">View on Scholar ↗</a>
+        </div>
+        <div class="publication-toolbar">
+          <div class="filter-bar" aria-label="Filter publications">
+            <button type="button" class="filter is-active" data-filter="all" aria-pressed="true">All work <span>04</span></button>
+            <button type="button" class="filter" data-filter="video" aria-pressed="false">Video-LLMs <span>02</span></button>
+            <button type="button" class="filter" data-filter="recognition" aria-pressed="false">Recognition <span>01</span></button>
+            <button type="button" class="filter" data-filter="efficiency" aria-pressed="false">Efficiency <span>01</span></button>
+          </div>
+          <span class="author-note">My name is <u>underlined</u>.</span>
+        </div>
+        <p id="filter-status" class="sr-only" aria-live="polite">Showing all 4 publications.</p>
+        <div class="publication-list">
+          <article class="publication featured" data-category="video">
+            <div class="pub-year"><time datetime="2026">2026</time><span>Preprint</span></div>
+            <a class="pub-visual image-visual" href="https://arxiv.org/abs/2608.04866" target="_blank" rel="noreferrer" aria-label="Read Persistent Object Narratives on arXiv">
+              <span class="image-title">SlotNarrative</span><img src="assets/papers/slotnarrative.png" alt="Comparison of dense frame tokens, per-frame object slots, and persistent object narratives" width="2136" height="919" loading="lazy" decoding="async"><span class="image-caption">Persistent object narratives</span>
+            </a>
+            <div class="pub-content">
+              <p class="pub-index">Video-LLMs <span>· Token efficiency</span><span class="new-label">Latest</span></p>
+              <h3><a href="https://arxiv.org/abs/2608.04866" target="_blank" rel="noreferrer">Persistent Object Narratives for Token-Efficient Video Language Models</a></h3>
+              <p class="authors"><u>Junzhe Chen</u>, Siyuan Meng, Xiaojie Guo</p>
+              <p class="venue">arXiv preprint · 2026</p>
+              <p class="abstract">SlotNarrative organizes recurring visual evidence into compact object-state tokens, using 144 allocated visual-token positions for a frozen Video-LLM.</p>
+              <div class="pub-actions"><a href="https://arxiv.org/abs/2608.04866" target="_blank" rel="noreferrer">Paper ↗</a><a href="https://arxiv.org/pdf/2608.04866" target="_blank" rel="noreferrer">PDF ↗</a><a href="assets/citations/slotnarrative.bib" download>BibTeX ↓</a></div>
             </div>
-        </div>
-        <div class="research-item">
-            <div class="research-title">Detection of extremely small targets under rain and fog</div>
-            <div class="date">Oct 2023 - Jan 2024</div>
-            <div class="details">
-                Investigating YOLO, DETR, Dehazing, and Diffusion Model for small target detection in adverse weather
-                conditions.
+          </article>
+          <article class="publication" data-category="video">
+            <div class="pub-year"><time datetime="2026">2026</time><span>Preprint</span></div>
+            <a class="pub-visual toc-visual" href="https://arxiv.org/abs/2605.09904" target="_blank" rel="noreferrer" aria-label="Read TOC-Bench on arXiv"><span class="visual-overline">Temporal object consistency</span><span class="visual-title">TOC<span>Bench</span></span><span class="toc-tracks" aria-hidden="true"><i></i><i></i><i></i></span><span class="visual-bottom">10 diagnostic dimensions <b aria-hidden="true">↗</b></span></a>
+            <div class="pub-content">
+              <p class="pub-index">Benchmark <span>· Temporal reasoning</span></p>
+              <h3><a href="https://arxiv.org/abs/2605.09904" target="_blank" rel="noreferrer">TOC-Bench: A Temporal Object Consistency Benchmark for Video Large Language Models</a></h3>
+              <p class="authors"><u>Junzhe Chen</u>, Siyuan Meng, Yuxi Chen, Man Zhao, Wenyao Gui, Xiaojie Guo</p>
+              <p class="venue">arXiv preprint · 2026</p>
+              <p class="abstract">An object-track-grounded benchmark with 2,323 human-verified questions across 1,951 videos, testing identity, state, and continuity over time.</p>
+              <div class="pub-actions"><a href="https://arxiv.org/abs/2605.09904" target="_blank" rel="noreferrer">Paper ↗</a><a href="https://github.com/cjzcjz666/toc_bench" target="_blank" rel="noreferrer">Code ↗</a><a href="assets/citations/toc-bench.bib" download>BibTeX ↓</a></div>
             </div>
-        </div>
-        <div class="research-item">
-            <div class="research-title">Efficient Adaptive Quantization with Mixed-Precision based on Low-Cost Proxy
+          </article>
+          <article class="publication" data-category="recognition">
+            <div class="pub-year"><time datetime="2025">2025</time><span>Journal</span></div>
+            <a class="pub-visual detection-visual" href="https://doi.org/10.1117/1.JEI.34.3.033047" target="_blank" rel="noreferrer" aria-label="Open Semi-RSTOD publication"><span class="visual-overline">Remote sensing</span><span class="aerial-grid" aria-hidden="true"></span><span class="tiny-target one" aria-hidden="true"></span><span class="tiny-target two" aria-hidden="true"></span><span class="visual-bottom">Semi-RSTOD <b aria-hidden="true">↗</b></span></a>
+            <div class="pub-content">
+              <p class="pub-index">Remote sensing <span>· Object detection</span></p>
+              <h3><a href="https://doi.org/10.1117/1.JEI.34.3.033047" target="_blank" rel="noreferrer">Semi-RSTOD: Toward Semi-Supervised Remote Sensing Tiny Object Detection</a></h3>
+              <p class="authors">Wenhao Xiang, Qianying Tang, <u>Junzhe Chen</u>, Xiang Wei, Shunli Zhang, Li Zhang</p>
+              <p class="venue">Journal of Electronic Imaging · 34(3), 033047 · 2025</p>
+              <p class="abstract">Semi-supervised learning for tiny-object detection in remote-sensing imagery.</p>
+              <div class="pub-actions"><a href="https://doi.org/10.1117/1.JEI.34.3.033047" target="_blank" rel="noreferrer">DOI ↗</a><a href="assets/citations/semi-rstod.bib" download>BibTeX ↓</a></div>
             </div>
-            <div class="date">Aug 2023 - Oct 2023</div>
-            <div class="details">
-                Developed a method using Hessian matrix trace for layer sensitivity determination and Pareto frontier
-                approach for automated bit-width selection in mixed-precision quantization.
+          </article>
+          <article class="publication" data-category="efficiency">
+            <div class="pub-year"><time datetime="2024">2024</time><span>ICASSP</span></div>
+            <a class="pub-visual quant-visual" href="https://arxiv.org/abs/2402.17706" target="_blank" rel="noreferrer" aria-label="Read Adaptive Quantization on arXiv"><span class="visual-overline">Mixed-precision quantization</span><span class="bits" aria-hidden="true"><i>2<span>bit</span></i><i>4<span>bit</span></i><i>8<span>bit</span></i></span><span class="visual-bottom">Low-cost proxy <b aria-hidden="true">↗</b></span></a>
+            <div class="pub-content">
+              <p class="pub-index">Efficiency <span>· Model compression</span></p>
+              <h3><a href="https://arxiv.org/abs/2402.17706" target="_blank" rel="noreferrer">Adaptive Quantization with Mixed-Precision Based on Low-Cost Proxy</a></h3>
+              <p class="authors"><u>Junzhe Chen</u>, Qiao Yang, Senmao Tian, Shunli Zhang</p>
+              <p class="venue">IEEE ICASSP · pp. 6720–6724 · 2024</p>
+              <p class="abstract">LCPAQ combines hardware-aware sensitivity analysis, Pareto selection, integer programming, and proxy search for efficient mixed-precision quantization.</p>
+              <div class="pub-actions"><a href="https://arxiv.org/abs/2402.17706" target="_blank" rel="noreferrer">Paper ↗</a><a href="https://doi.org/10.1109/ICASSP48485.2024.10447866" target="_blank" rel="noreferrer">DOI ↗</a><a href="assets/citations/lcpaq.bib" download>BibTeX ↓</a></div>
             </div>
+          </article>
         </div>
+        <p class="publication-footnote">Preprints are explicitly labeled. Publication details checked Aug 2026. <a href="assets/publications.bib" download>Download all citations ↗</a></p>
+      </div>
     </section>
-
-    <section class="section">
-        <h2>Professional Experience</h2>
-        <div class="experience-item">
-            <div class="experience-title">Algorithm Engineer, Huizhi Square Technology Co., Ltd</div>
-            <div class="date">Jul 2023 - Oct 2023</div>
-            <div class="details">
-                Researched SAM-related literature and deployed SAM models using quantitative techniques.
-            </div>
+    <section class="background shell section" id="background" aria-labelledby="background-title">
+      <div class="section-heading"><p class="section-kicker">03 / Background</p><h2 id="background-title">A little more<br><em>background.</em></h2></div>
+      <div class="background-content">
+        <h3 class="small-heading">Education</h3>
+        <div class="timeline">
+          <article><span class="timeline-date">Current</span><div><h4>Tianjin University</h4><p>Ph.D. student in Computer Science</p></div></article>
+          <article><span class="timeline-date"><time datetime="2024-01">Jan 2024</time> – <time datetime="2025-05">May 2025</time></span><div><h4>Johns Hopkins University</h4><p>M.S. in Computer Science</p></div></article>
+          <article><span class="timeline-date">2019–2023</span><div><h4>Beijing Jiaotong University</h4><p>B.Eng. in Software Engineering</p></div></article>
         </div>
-        <div class="experience-item">
-            <div class="experience-title">Deep Learning Intern, OPPO Communication Co., Ltd.</div>
-            <div class="date">Nov 2022 - Jan 2022</div>
-            <div class="details">
-                Researched model compression techniques and conducted model accuracy and speed testing.
-            </div>
-        </div>
-        <div class="experience-item">
-            <div class="experience-title">Computer Vision Algorithm Intern, Sense Technology Co., Ltd.</div>
-            <div class="date">Sep 2022 - Nov 2023</div>
-            <div class="details">
-                Developed computer vision algorithms for motion capture and distance estimation using deep learning
-                techniques.
-            </div>
-        </div>
+        <h3 class="small-heading industry-heading">Industry experience</h3>
+        <ul class="industry-list"><li><strong>Huizhi Square Technology</strong><span>Algorithm Engineer</span></li><li><strong>OPPO</strong><span>Deep Learning Intern</span></li><li><strong>Sense Technology</strong><span>Computer Vision Algorithm Intern</span></li></ul>
+        <details class="honors"><summary>Honors &amp; awards <span aria-hidden="true">+</span></summary><ul><li><strong>2023</strong> Third Prize, Beijing Big Data Skills Competition</li><li><strong>2023</strong> Outstanding Undergraduate Thesis, Beijing Jiaotong University</li><li><strong>2023</strong> 4th Place, 4th International Competition on Human Identification at a Distance</li></ul></details>
+      </div>
     </section>
-
-    <section class="section">
-        <h2>Honors & Awards</h2>
-        <ul>
-            <li>Third Prize, 2023 Beijing Big Data Skills Competition (Oct 2023)</li>
-            <li>Outstanding Undergraduate Thesis, Beijing Jiaotong University (Jun 2023)</li>
-            <li>4th Place, 4th International Competition on Human Identification at a Distance (May 2023)</li>
-        </ul>
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+      <div class="shell contact-inner">
+        <div class="contact-heading"><p class="section-kicker">04 / Contact</p><h2 id="contact-title">Good research starts<br>with a <em>conversation.</em></h2></div>
+        <div class="contact-copy"><p>For research ideas, questions about my work,<br>or possible collaborations, feel free to reach out.</p><a class="email-link" href="mailto:junzhec12@gmail.com">junzhec12@gmail.com <span aria-hidden="true">↗</span></a></div>
+        <footer><span>© <span id="year">2026</span> Junzhe Chen <span class="footer-dot">·</span> Updated Aug 2026</span><div><a href="https://scholar.google.com/citations?user=YjoHl1EAAAAJ&amp;hl=en" target="_blank" rel="noreferrer">Scholar ↗</a><a href="https://github.com/cjzcjz666" target="_blank" rel="noreferrer">GitHub ↗</a><a href="#top">Back to top ↑</a></div></footer>
+      </div>
     </section>
-
-    <section class="section">
-        <h2>Technical Skills</h2>
-        <p>Python, PyTorch, ONNX, TensorRT</p>
-    </section>
+  </main>
 </body>
-
 </html>
