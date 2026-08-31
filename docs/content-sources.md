@@ -25,7 +25,7 @@
 
 - <https://arxiv.org/abs/2605.09904> (v2, revised 2026-05-12).
 - Authors: Junzhe Chen, Siyuan Meng, Yuxi Chen, Man Zhao, **Wenyao Gui**, Xiaojie Guo. The v2 author list agrees with Scholar; older indexed snippets omitted Wenyao Gui and were not used.
-- Public resource: <https://github.com/cjzcjz666/toc_bench>, linked by the arXiv abstract and verified through the public GitHub API.
+- Public resource: <https://github.com/junzhe-c/toc_bench>, linked by the arXiv abstract and verified through the public GitHub API.
 - Listed as a **2026 arXiv preprint**, with no inferred conference acceptance.
 - The published abstract reports 2,323 human-verified QA pairs, 1,951 videos, and 10 diagnostic dimensions. These are public-paper figures, not a claim to reflect unpublished revisions.
 - The thumbnail is a decorative HTML/CSS cover, not an experimental result plot.
@@ -51,7 +51,7 @@
 
 ## Preserved historical information and open questions
 
-Source: the user's original `index.html`, fetched from <https://github.com/cjzcjz666/cjzcjz666.github.io>.
+Source: the user's original `index.html`, fetched from <https://github.com/junzhe-c/junzhe-c.github.io>.
 
 - Beijing Jiaotong University: B.Eng., Software Engineering, 2019–2023. Preserved as stated.
 - Johns Hopkins University: the owner confirmed the dates **January 2024–May 2025** on 2026-08-31. The homepage displays **M.S. in Computer Science** (the program from the original page) with these corrected dates.

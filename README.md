@@ -2,6 +2,8 @@
 
 面向 GitHub Pages 的纯静态学术主页，不依赖 Node.js、构建工具、后端或外部 CDN。原有 `CNAME`（`junzhec.top`）保持不变。
 
+仓库：<https://github.com/junzhe-c/junzhe-c.github.io>。个人资料：<https://github.com/junzhe-c>。
+
 ## 本地预览
 
 在本目录运行：
